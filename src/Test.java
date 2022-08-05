@@ -22,5 +22,12 @@ public class Test {
 	public void setTestage(Integer testage) {
 		this.testage = testage;
 	}
+
+	@Override
+	public String toString() {
+		return "Test [testName=" + testName + ", testage=" + testage + "]";
+	}
+	
+	
 	
 }
